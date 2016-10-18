@@ -1,0 +1,21 @@
+.block-appeals {
+	padding: 3px 0 41px;
+
+	@media ($tablet-widths) {
+		padding: 24px 0 69px;
+	}
+
+	@media ($desktop-widths) {
+		padding: 4px 0 67px;
+	}
+}
+
+.block-appeals__text {
+	@include style-font(14px, 30px, 400);
+	text-align: center;
+	color: $primary-color;
+
+	@media ($tablet-widths) {
+		@include style-font(18px, 30px, 400);
+	}
+}
