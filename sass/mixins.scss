@@ -1,20 +1,7 @@
 @mixin container() {
-	width: 280px;
+	width: 1160px;
 	margin: 0 auto;
 	padding: 0 20px;
-
-
-	@media ($tablet-widths) {
-		width: 620px;
-		margin: 0 auto;
-		padding: 0 20px;
-	}
-
-	@media ($desktop-widths) {
-		width: 940px;
-		margin: 0 auto;
-		padding: 0 10px;
-	}
 }
 
 @mixin a-link() {
